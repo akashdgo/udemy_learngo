@@ -44,20 +44,4 @@ func bye() {
 - the above will thrown an error since fmt is not imported 
 - in main.go fmt is imported but has a file scope and has the perimeter of file main.go and cannot be called from hey.go even though it is part of pkg main.
 
-
-                      package main
-    +-----------------------------------------------+
-    |                                               |
-    |                                               |
-    |     +-----------+       +--------------+      |    +---------+
-    |     |           |       |              |      |    |         |
-    |     |           |       |              |      |    |   fmt   |
-    |     |  bye.go   |       |    main.go   |      |    |         |
-    |     |           |       |              |      |    +----+--+-+
-    |     |           |       |              |      |         |  |
-    |     +-----+-----+       +-------+------+      |         |  |
-    |           ^                     ^             |         |  |
-    |           |                     |             |         |  |
-    |           +~~~~~~~~~~~~~~~~~~~~~|~~~~~~~~~~~~~|~~~~~~~~~+  |
-    |                                 +-------------|------------+
-    +-----------------------------------------------+
+![image](https://user-images.githubusercontent.com/28204484/87104512-ccbb2380-c275-11ea-9ef2-a6e070b34b08.png)
