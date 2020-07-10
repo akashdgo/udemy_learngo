@@ -1,3 +1,15 @@
+### Package Scope
+
+![image](https://user-images.githubusercontent.com/28204484/87107823-671f6500-c27e-11ea-91e3-97f3a834f8d0.png)
+
+**error displayed on vscode**
+
+![image](https://user-images.githubusercontent.com/28204484/87107989-ced5b000-c27e-11ea-81c2-6d232f584200.png)
+
+- It says: "The duplication is in bye.go file, at this 5th line".
+- **Thus, in the same scope, you can't have two declarations with the same name.**
+- **It is also true for all the other declarations like variables, constants, types and so on.**
+
 ### Importing#1 
 ---------------
 
@@ -66,6 +78,7 @@ import "fmt"
 import f "fmt" <---- go file will import "fmt" as 'f': so "fmt" pkg can be used by 'f' or 'fmt'
 ```
 
+**main.go**
 ```
 package main
 
