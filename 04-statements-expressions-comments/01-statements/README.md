@@ -43,7 +43,7 @@ func main() {
 	fmt.Println("hello"); fmt.Println("Akash!!!")
 }
 ```
-when saved to be executed is formatted to
+when saved to be run is formatted to
 
 ```
 package main
