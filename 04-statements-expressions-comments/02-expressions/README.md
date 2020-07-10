@@ -30,6 +30,7 @@ Hello Gopher!!!
 ```
 
 <-- numCPU is an expression
+
 <-- Println is a statement
 
 ![image](https://user-images.githubusercontent.com/28204484/87153407-0c652800-c2d5-11ea-9aa9-f4c031ca448d.png)
