@@ -84,7 +84,6 @@ func main() {
 
 ```
 ad@mac:03-importing$ go run main.go
-**Hello Gophers!!**
-**Printing using 'f' instead of 'fmt'**
-ad@mac:03-importing$ 
+Hello Gophers!!
+Printing using 'f' instead of 'fmt'
 ```
