@@ -1,4 +1,5 @@
 ### Importing#1 
+---------------
 
 1. Importing only happens at the file level and not at pkg level.
 2. Importing == declaring what is inside the improted package files in your own file.
@@ -12,16 +13,16 @@ import {
 ```
 
 - exported names as if they're your own e.g. 
-        - *"fmt.Println"*
-        - *"errors.Printerr"*
-        - *"time.PrintTime"*
+    - **"fmt.Println"**
+	- **"errors.Printerr"**
+	- **"time.PrintTime"**
    calls.
 
 - When a package is imported, its files  will be copied into the final, compiled binary.
 
 ### File Scope
 
-** main.go
+**main.go**
 ```
 package main
 import "fmt"
@@ -32,7 +33,7 @@ func main() {
 }
 ```
 
-**  bye.go
+**bye.go**
 ```
 package main
 // import "fmt"  <-- fmt not imported & commented out. For bye.go to be able to use it this statement needs to be present.
@@ -47,7 +48,7 @@ func bye() {
 ![image](https://user-images.githubusercontent.com/28204484/87104745-7a2e3700-c276-11ea-850d-e556b18452a6.png)
 
 ### Importing#2
-
+----------------
 
 - imports in a Go file requires unique name and same package with the same name cannot be imported more than once.
 
@@ -76,14 +77,14 @@ import (
 func main() {
 
 	fmt.Println("Hello Gophers!!")
-	f.Println("Printing using f instead of fmt")
+	f.Println("Printing using 'f' instead of 'fmt'")
 }
 ```
 **_Output_**
 
 ```
 ad@mac:03-importing$ go run main.go
-** Hello Gophers!!
-** Printing using f instead of fmt
+**Hello Gophers!!**
+**Printing using 'f' instead of 'fmt'**
 ad@mac:03-importing$ 
 ```
