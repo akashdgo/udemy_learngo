@@ -4,7 +4,7 @@
 - this will help in creating the documentation automatically
 
 ```
-// **_Package main_** - makes this package an executable prog.
+// 'Package main' - makes this package an executable prog.
 package main
 
 import (
@@ -13,7 +13,7 @@ import (
 )
 
 /*
-**_func main_**
+'func main'
 Go executes the program using the func. Can be considered entry point into the program
 */
 func main() {
@@ -24,7 +24,7 @@ func main() {
 To view the docuemtation of NumCPU func.
 
 ```
-ad@mac:02-example$ `go doc -src runtime NumCPU`
+ad@mac:02-example$ go doc -src runtime NumCPU
 package runtime // import "runtime"
 
 // NumCPU returns the number of logical CPUs usable by the current process.
@@ -35,7 +35,9 @@ package runtime // import "runtime"
 func NumCPU() int {
         return int(ncpu)
 }
-```Similarly to view the documentation of fmt package
+```
+
+Similarly to view the documentation of fmt package
 
 ```
 ad@mac:02-example$ go doc -src fmt Println
