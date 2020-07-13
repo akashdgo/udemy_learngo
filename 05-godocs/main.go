@@ -1,4 +1,6 @@
-// Package main - makes this package an executable prog.
+/*
+main package - makes this package an executable prog.
+*/
 package main
 
 import (
