@@ -18,5 +18,10 @@ A lib-pkg can have func the name of which can start with an uppercase or a lower
 
 `Recommendation` 
 ```
-"mail" package is also another library package. Yet it uses the errors package, which is also a library package. A single library can't contain everything. One shouldn't create packages for everything. Each package should be specific on its own. Each one should be responsible for one or a few things at most. "mail" (package) is dealing with "mailing". "errors" package is dealing with "errors", and "fmt" package is dealing with "formatting", and "printing", and so on, so on. So, when creating a package, its always recommended to keep it concise, and to the point.
+- "mail" package is also another library package. Yet it uses the errors package, which is also a library package. 
+- A single library can't contain everything. One shouldn't create packages for everything. 
+- Each package should be specific on its own. 
+- Each one should be responsible for one or a few things at most. 
+- "mail" (package) is dealing with "mailing". "errors" package is dealing with "errors", and "fmt" package is dealing with "formatting", and "printing", and so on, so on. 
+- So, when creating a package, its always recommended to keep it concise, and to the point.
 ```
