@@ -1,4 +1,5 @@
 ### Exporting
+-------------
 
 A lib-pkg can have func the name of which can start with an uppercase or a lower case.
 - Upper case mean : the func is being exported and any other package importing the lib-pkg can use this func
@@ -11,12 +12,13 @@ A lib-pkg can have func the name of which can start with an uppercase or a lower
 - But the struct 'errorString' can only be used by package error and not by any other package (package scope).
 
 #### Example (pkg. errors used in pkg mail)
+-------------------------------------------
 
 ![image](https://user-images.githubusercontent.com/28204484/87499996-227a3c00-c679-11ea-92d4-7ba9c49e267b.png)
 
 ![image](https://user-images.githubusercontent.com/28204484/87499913-ee068000-c678-11ea-9918-e3f6a382ce81.png)
 
-`Recommendation` 
+#### Recommendation 
 
 - "mail" package is also another library package. Yet it uses the errors package, which is also a library package. 
 - A single library can't contain everything. One shouldn't create packages for everything. 
