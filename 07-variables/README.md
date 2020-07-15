@@ -9,7 +9,7 @@
 ---------------------
 
 int : variable without fraction 
-- can be negetive or positive
+- can be negative or positive
 - the value is called integer literals
 
 `literal - just the value itself`
