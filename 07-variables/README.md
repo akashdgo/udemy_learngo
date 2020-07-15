@@ -48,7 +48,7 @@ e.g
                     ---------------
 string   ---------> "Hi there आकाश"
 ```
-<-- non-english char are represented as utf-8 (unicode characters) in which each code can take 1-4 bytes
+<-- non-english char are represented as utf-8 (unicode characters) in which each character can take 1-4 bytes
 
 -------------------
 
