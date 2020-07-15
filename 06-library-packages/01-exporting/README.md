@@ -7,5 +7,5 @@ A lib-pkg can have func the name of which can start with an uppercase or a lower
 ![image](https://user-images.githubusercontent.com/28204484/87498971-beef0f00-c676-11ea-92d0-e09e4d90c932.png)
 
  - New(text string) : This func can be used by any package importing "error" package
-    - Similary 'Error()' which is a *method* (a function but attached to a type).
+    - Similary 'Error()' which is a **method** (a function but attached to a type).
 - But the struct 'errorString' can only be used by package error and not by any other package (package scope).
