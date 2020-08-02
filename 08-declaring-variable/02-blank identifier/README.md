@@ -10,4 +10,4 @@
 
 ![image](https://user-images.githubusercontent.com/28204484/89118312-64e9a880-d4c2-11ea-81bf-f7c353548e7c.png)
 
-- *blank-identifier is like an null interface or a black-hole.*
+- ***blank-identifier is like an null interface or a black-hole.***
