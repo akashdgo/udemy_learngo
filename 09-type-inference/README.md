@@ -36,10 +36,9 @@ ad@mac$go run main.go
 true
 ```
 - The __type inference__ type inference means that Go can figure out the type of the variable automatically.
-
+-  __short declaration statement__
 ![image](https://user-images.githubusercontent.com/28204484/89301245-13d6e180-d687-11ea-9c36-80d08664b5d7.png)
 
-<-- __short declaration statement__
 - short declaration value should always have a value
 - short declaration can only be used inside a function and not on the package level
 
