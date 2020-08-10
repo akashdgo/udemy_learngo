@@ -12,7 +12,7 @@
 |when req to *group var* for *readability*|   |
 |   |use to keep code concise|
 |   |when it is required to declare and assign value to a variable|
-|   |can be created in 'if' statements belonging to that statement only|
+|   |can be used in 'if' statements belonging to that statement only|
 
 
 
