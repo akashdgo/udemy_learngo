@@ -51,7 +51,7 @@ true
 
 ![image](https://user-images.githubusercontent.com/28204484/89303864-606fec00-d68a-11ea-985f-6ecb8c00fb74.png)
 
-#### declaring multiple variables using 'short declaration'
+### declaring multiple variables using 'short declaration'
 
 ```
 package main
@@ -69,7 +69,4 @@ __Output__
 ad@mac$go run main.go
 true 50
 ```
-- __NOTE:__ Need to be care on the number of variables used in multiple short declaration since it can make it unreadable
-
-#### Redeclaration
-
+__NOTE:__ Need to be care on the number of variables used in multiple short declaration since it can make it unreadable.
